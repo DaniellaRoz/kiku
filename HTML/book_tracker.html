@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>★ 凪鈴 〜 ブックトラッカー | Book Tracker</title>
+        <meta name="description" content="Bring your sunglasses">
+        <link rel="icon" type="image/png" href="../media/gfx/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="../styles.css" rel="stylesheet" type="text/css">
+
+        <style>
+            .requires-js { display: none; }
+        </style>
+    </head>
+
+    <body>
+        <script src="../JS/book_tracker.js" defer></script>
+
+        <div class="container">
+            <nav class="box" id="navigation">
+                <ul class="nav-list">
+                    <li><a href="../index.html">Home | トップ</a></li>
+                    <li><a href="blog.html">Blog | ブログ</a></li>
+                    <li><a href="writing.html">Writing | 文章</a></li>
+                    <li><a href="lists.html">Lists | まとめ</a></li>
+                    <li><a href="japanese.html">Japanese | 日本語</a></li>
+                    <li class="selected"><a href="book_tracker.html">
+                        <p>Book Tracker</p>
+                        <p>ブックトラッカー</p>
+                    </a></li>
+                    <li><a href="book_reviews.html">Book Reviews | 書評</a></li>
+                </ul>
+
+                <div id="nina">
+                    <p>Nina says that objectivity doesn't exist, but if it did, everything on this website would be 100% objectively true.</p>
+                    <p>ニナは客観性など存在し無いが、もし存在するなら、このサイト上の全ての情報は100%客観的であるはずだと言う。</p>
+                    <a href="https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%9A%D0%B5%D0%BC%D0%B5%D0%BB%D2%B1%D0%BB%D1%8B_%D0%A2%D0%BE%D2%9B%D0%B0%D0%B5%D0%B2" target="_blank"><img src="../media/gfx/MAJIDAYO.png" alt="東方錦上京　〜 Fossilized Wonders Watari Nina sprite, the version where she says マジだよ and smiles"></a>
+                </div>
+            </nav>
+
+            <main class="box" id="main-view">
+                <noscript>
+                    <p>The book tracker uses client side JS, please enable it to view</p>
+                    <p class="ja">ブックトラッカーはクライアントサイドJavaScriptを使用しているため、表示するにはJavaScriptを有効して下さい</p>
+                </noscript>
+                <div class="requires-js" id="js-only">
+                    <header class="page-header"> 
+                        <h1><span class="ja">ブックトラッカー 〜 </span>Book Tracker</h1>
+                        <hr>
+                    </header>
+
+                    <div class="cute-button" id="language-toggle-button">English Please</div>
+
+                    <hr>
+
+                    <table id="book-table" class="ja">
+                        <tr>
+                            <th>タイトル</th>
+                            <th>著者</th>
+                            <th>発行年</th>
+                            <th>文字数</th>
+                            <th>読了回数</th>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+
+            <footer class="box" id="footer">
+                <main>
+                    <div class="to-all-my-haters">
+                        <p>Made with spite, hatred and excessive hubris.</p>
+                        <p class="ja">悪意、憎悪、そして過剰な自惚れで作られた。</p>
+                    </div>
+                </main>
+                <div class="good-sites">
+                    <h1>Good sites</h1>
+                    <ul>
+                        <li><a href="https://myxoz.net">mikotine</a></li>
+                        <li><a href="https://warrensofhonk.neocities.org">Warrens of Honk</a></li>
+                    </ul>
+                </div>
+                <div class="me">
+                    <h1>Me</h1>
+                    <ul>
+                        <li>Fedi: @nagirin@ak.myxoz.net</li>
+                        <li>If you feel daring, ask for my discord or signal</li>
+                    </ul>
+                </div>
+                <div class="copyright-trust">
+                    <p>©令和８年　凪鈴巨大企業</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

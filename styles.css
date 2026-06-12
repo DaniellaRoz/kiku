@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kaisei+Opti&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=WDXL+Lubrifont+JP+N&family=Yusei+Magic&display=swap');
+
+@font-face {
+    font-family: "EVA MATISSE";
+    src: url("/media/fonts/EVA_MATISSE_CLASSIC.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-view p, #main-view a, #footer > main, #book-table {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main-view h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#main-view img {
+    align-self: flex-start;
+}
+
+/* For Japanese language text */
+.ja, #main-view .ja {
+    font-family: "kaisei opti", serif;
+}
+
+#main-view h1.ja, #main-view h1 span.ja {
+    font-family: "EVA MATISSE", serif;
+    font-weight: 500;
+}
+
+#main-view hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+html, body {
+    width: 100vw;
+    width: 100dvw;
+
+    height: 100vh;
+    height: 100dvh;
+
+    overflow: hidden;
+}
+
+p {
+    line-height: 1.3;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    background-image: url("media/gfx/eosd_some_background_idk.png");
+}
+
+.box {
+    height: 100%;
+
+    display: flex;
+    flex: 1;
+
+    overflow-y: auto;
+}
+
+#navigation {
+    flex: 20;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#navigation > ul, #navigation > div {
+    border-radius: 5px;
+    border: 2mm ridge #111;
+}
+
+.nav-list {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+
+    list-style: none;
+
+    color: #FFF;
+    background-image: url("media/gfx/fuujinroku_stage4_boss.png");
+    background-size: cover;
+}
+
+.nav-list > li {
+    height: 100%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 18pt;
+    font-weight: 600;
+    font-family: "Hachi Maru Pop", cursive;
+    text-shadow: 1px 1px 2px #000;
+
+    cursor: pointer;
+}
+
+.nav-list > li > a {
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list > li::before {
+    content: "☆";
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: hidden;
+}
+
+.nav-list > li.selected::before {
+    content: "★";
+}
+
+.nav-list > li:hover::before, .nav-list > li.selected::before {
+    visibility: visible;
+}
+
+#nina {
+    background-image: url("media/gfx/eiyashou_final_b.png");
+    background-size: cover;
+}
+
+#nina > p {
+    margin-bottom: 10px;
+
+    color: white;
+    text-shadow: 1px 1px 2px #db31f1;
+    font-size: 10pt;
+    font-family: "yusei magic";
+}
+
+
+#nina > a > img {
+    width: 100%;
+    user-select: none;
+}
+
+#main-view {
+    flex: 55;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    border: 2mm ridge #111;
+
+    background-color: #FFF;
+}
+
+#main-view p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 14pt;
+}
+
+#main-view rt {
+    font-size: 8pt;
+}
+
+.page-header {
+
+}
+
+#footer {
+    height: 100%;
+
+    flex: 25;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+
+    border-radius: 5px;
+    border: 2mm ridge #111;
+
+    background-image: url("media/gfx/kaeizuka_staff_roll.png");
+    background-size: cover;
+}
+
+
+#footer > main {
+    width: 100%;
+    height: 380px;
+
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer li::before {
+    content: "★";
+    margin-right: 12px;
+    font-size: 8pt;
+}
+
+.to-all-my-haters {
+    font-size: 12pt;
+}
+
+.me, .good-sites, .me h1, .good-sites h1, .me p, .good-sites p, .good-sites a {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.good-sites {
+    width: 100%;
+    flex: 1;
+}
+
+.me {
+    width: 100%;
+    flex: 1;
+}
+
+.copyright-trust {
+    margin-top: 10%;
+    width: 100%;
+
+    color: #fff;
+    font-size: 18pt;
+    font-family: "WDXL Lubrifont JP N", sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#book-table {
+    width: 100%;
+
+    font-size: 14pt;
+
+    border-collapse: collapse;
+}
+
+#book-table td {
+    text-align: center;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+
+#sum-row > td {
+    border-top: 2px solid black;
+    border-bottom: none;
+}
+
+
+/* Did I steal this from some random website? yeah, do I have shame? nope lol */
+.cute-button {
+    padding: 2px 8px;
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #F3F3F3;
+    -moz-box-shadow: 0 0 0 1px #707070;
+    -webkit-box-shadow: 0 0 0 1px #707070;
+    box-shadow: 0 0 0 1px #707070;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: -moz-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#F2F2F2), color-stop(0.5,#EBEBEB),color-stop(0.51,#DDDDDD),color-stop(1,#CFCFCF));
+    background: linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+    font-family: "Meiryo UI", "Segoe UI", sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cute-button:hover {
+    border: 1px solid #ECF7FD;
+    -moz-box-shadow: 0 0 0 1px #3C7FB1;
+    -webkit-box-shadow: 0 0 0 1px #3C7FB1;
+    box-shadow: 0 0 0 1px #3C7FB1;
+    background: -moz-linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#EAF6FD), color-stop(0.5,#D9F0FC),color-stop(0.51,#BEE6FD),color-stop(1,#A7D9F5));
+    background: linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
+}
+
+.cute-button:active {
+    padding: 2px 7px 3px 9px;
+    border: 1px solid #73A7C4;
+    border-bottom: 0;
+    -moz-box-shadow: 0 0 0 1px #2C628B;
+    -webkit-box-shadow: 0 0 0 1px #2C628B;
+    box-shadow: 0 0 0 1px #2C628B;
+    background: -moz-linear-gradient(top, #E5F4FC 0%, #C4E5F6 50%, #98D1EF 51%, #68B3DB 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#E5F4FC), color-stop(0.5,#C4E5F6),color-stop(0.51,#98D1EF),color-stop(1,#68B3DB));
+}

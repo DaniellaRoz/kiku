@@ -1,0 +1,132 @@
+{
+    "books": [
+        {
+            "title": "週に一度クラスメイトを買う話",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2023,
+            "characterCount": 105708,
+            "timesRead": 3
+        },
+        {
+            "title": "週に一度クラスメイトを買う話2巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし2かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 2",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2023,
+            "characterCount": 114012,
+            "timesRead": 2
+        },
+        {
+            "title": "週に一度クラスメイトを買う話3巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし3かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 3",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2023,
+            "characterCount": 97488,
+            "timesRead": 1
+        },
+        {
+            "title": "週に一度クラスメイトを買う話4巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし4かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 4",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2024,
+            "characterCount": 108501,
+            "timesRead": 1
+        },
+        {
+            "title": "週に一度クラスメイトを買う話5巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし5かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 5",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2024,
+            "characterCount": 110544,
+            "timesRead": 1
+        },
+        {
+            "title": "週に一度クラスメイトを買う話6巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし6かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 6",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2025,
+            "characterCount": 110384,
+            "timesRead": 1
+        },
+        {
+            "title": "週に一度クラスメイトを買う話7巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし7かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 7",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2025,
+            "characterCount": 105310,
+            "timesRead": 1
+        },
+        {
+            "title": "アナタコンプレックス",
+            "titleRoman": "anata konpurekkusu",
+            "author": "綾　加奈",
+            "authorReading": "あやかな",
+            "authorRoman": "Aya Kana",
+            "year": 2018,
+            "characterCount": 186168,
+            "timesRead": 1
+        },
+        {
+            "title": "週に一度クラスメイトを買う話8巻",
+            "titleReading": "しゅうにいちどくらすめいとをかうはなし8かん",
+            "titleRoman": "shū ni ichido kurasumeito o kau hanashi 8",
+            "author": "羽田宇佐",
+            "authorReading": "はねだうさ",
+            "authorRoman": "Haneda Usa",
+            "year": 2025,
+            "characterCount": 128840,
+            "timesRead": 1
+        },
+        {
+            "title": "少女星間漂流記",
+            "titleRoman": "shōjo seikan hyōryūki",
+            "author": "東崎惟子",
+            "authorReading": "あがりざきゆいこ",
+            "authorRoman": "Agarizaki Yuiko",
+            "year": 2024,
+            "characterCount": 97306,
+            "timesRead": 1
+        },
+        {
+            "title": "姉の娘と正しく在りたい世界の私",
+            "titleRoman": "ane no musume to tadashiku aritai sekai no watashi",
+            "author": "綾　加奈",
+            "authorReading": "あやかな",
+            "authorRoman": "Aya Kana",
+            "year": 2020,
+            "characterCount": 139407,
+            "timesRead": 1
+        },
+        {
+            "title": "青春は白百合の花束だ",
+            "titleRoman": "seishun wa shirayuri no hanatabi da",
+            "author": "綾　加奈",
+            "authorReading": "あやかな",
+            "authorRoman": "Aya Kana",
+            "year": 2018,
+            "characterCount": 241906,
+            "timesRead": 1
+        }
+    ]
+}
