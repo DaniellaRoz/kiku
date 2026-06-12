@@ -15,14 +15,14 @@ const PORT = 3000;
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
 
 process.on("SIGTERM", () => {
-    server.close(() => {
+    app.close(() => {
         console.log("Server closing, good night.");
         process.exit(0);
     });
 });
 
 process.on("SIGINT", () => {
-    server.close(() => {
+    app.close(() => {
         console.log("Server closing, good night.");
         process.exit(0);
     });
