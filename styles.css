@@ -18,7 +18,7 @@
     font-style: normal;
 }
 
-#main-view h1 {
+#main-view h1, #main-view h2 {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -197,8 +197,51 @@ p {
     font-size: 8pt;
 }
 
-.page-header {
+p.disclaimer {
+    font-size: 10pt !important;
+    font-style: italic !important;
+}
 
+.article-preview {
+    cursor: pointer;
+
+    color: #000;
+    text-decoration: none;
+}
+
+.article-preview h2 {
+    font-size: 20pt;
+}
+
+.article-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-preview-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-preview-description {
+    flex: 4;
+}
+
+.article-preview-character-count {
+    flex: 2;
+    text-align: right;
+}
+
+.article-preview-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt !important;
+}
+
+.article-preview-footer > p {
+    font-size: 10pt !important;
 }
 
 #footer {
