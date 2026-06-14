@@ -34,7 +34,7 @@
     font-family: "kaisei opti", serif;
 }
 
-#main-view h1.ja, #main-view h1 span.ja {
+#main-view h1.ja, #main-view h2.ja, #main-view h1 span.ja, #main-view h2 span.ja {
     font-family: "EVA MATISSE", serif;
     font-weight: 500;
 }
